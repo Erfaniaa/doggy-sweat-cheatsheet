@@ -5,16 +5,11 @@ struct Triple
 	Triple( Int q, Int w, Int e ) : d( q ), x( w ), y( e ) {}
 };
 
-/****************
- * Extended GCD *
- ****************
- * Given nonnegative a and b, computes d = gcd( a, b )
+/* Given nonnegative a and b, computes d = gcd( a, b )
  * along with integers x and y, such that d = ax + by
  * and returns the triple (d, x, y).
  * WARNING: needs a small modification to work on
  * negative integers (operator% fails).
- * REQUIRES: struct Triple
- * USED BY: msolve, inverse, ldioph
  **/
 
 template< class Int >

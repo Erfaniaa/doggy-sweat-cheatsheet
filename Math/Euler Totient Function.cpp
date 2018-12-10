@@ -1,9 +1,5 @@
-/**************************
- * Euler totient function *
- **************************
- * Returns the number of positive integers that are
+/* Returns the number of positive integers that are
  * relatively prime to n. As efficient as factor().
- * #include <vector>
  * REQUIRES: factor()
  * REQUIRES: sqrt() must work on Int.
  * REQUIRES: the constructor Int::Int( double ).

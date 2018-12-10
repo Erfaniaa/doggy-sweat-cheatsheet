@@ -1,10 +1,5 @@
-/**********************
- * Number of divisors *
- **********************
- * Returns the number of positive divisors of n.
+/* Returns the number of positive divisors of n.
  * Complexity: about O(sqrt(n)).
- * #include <math.h>
- * #include <vector>
  * REQUIRES: factor()
  * REQUIRES: sqrt() must work on Int.
  * REQUIRES: the constructor Int::Int( double ).

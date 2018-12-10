@@ -1,11 +1,7 @@
-/**********************************
- * Modular Linear Equation Solver *
- **********************************
- * Given a, b and n, solves the equation ax = b (mod n)
+/* Given a, b and n, solves the equation ax = b (mod n)
  * for x. Returns the vector of solutions, all smaller
  * than n and sorted in increasing order. The vector is
  * empty if there are no solutions.
- * #include <vector>
  * REQUIRES: struct Triple, egcd
  **/
 template< class Int >

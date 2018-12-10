@@ -1,7 +1,4 @@
-/**************************************
- * Linear Diophantine Equation Solver *
- **************************************
- * Solves integer equations of the form ax + by = c
+/* Solves integer equations of the form ax + by = c
  * for integers x and y. Returns a triple containing
  * the answer (in .x and .y) and a flag (in .d).
  * If the returned flag is zero, then there are no
