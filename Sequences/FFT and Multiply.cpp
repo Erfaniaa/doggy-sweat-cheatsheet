@@ -27,10 +27,10 @@ void multiply (const vector<int> &a, const vector<int> & b, vector<int>
     n <<= 1;  
     fa.resize(n), fb.resize(n);  
     fft(fa, false), fft(fb, false);  
-    fore(i, 0, n)  
-    fa[i] *= fb[i];  
+    fore(i, 0, n)
+		fa[i] *= fb[i];  
     fft (fa, true);  
     res.resize (n);  
-    fore(i, 0, n)  
-    res[i] = int (fa[i].real() + 0.5);  
+    fore(i, 0, n)
+		res[i] = int (fa[i].real() + 0.5);  
 }  
